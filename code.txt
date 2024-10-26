@@ -1,11 +1,3 @@
-
-!pip install opencv-python-headless
-!pip install scikit-image
-!pip install fpdf
-!pip install yt-dlp
-!pip install youtube_transcript_api
-!apt-get install ffmpeg
-
 import sys
 import os
 import tempfile
