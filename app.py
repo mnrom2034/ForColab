@@ -1,3 +1,4 @@
+
 !pip install opencv-python-headless
 !pip install scikit-image
 !pip install fpdf
@@ -224,6 +225,11 @@ def main(urls):
         print(f"Transcripts PDF: {transcript_pdf_filename}")
         files.download(output_pdf_filename)
         files.download(transcript_pdf_filename)
+
+
+#if __name__ == "__main__":
+#    urls = ["https://www.youtube.com/watch?v=W7KXFG9lU4w"]
+    #main(urls)
 
 if __name__ == "__main__":
     url = input("Please enter the YouTube URL: ")
