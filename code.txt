@@ -218,11 +218,6 @@ def main(urls):
         files.download(output_pdf_filename)
         files.download(transcript_pdf_filename)
 
-
-#if __name__ == "__main__":
-#    urls = ["https://www.youtube.com/watch?v=W7KXFG9lU4w"]
-    #main(urls)
-
 if __name__ == "__main__":
     url = input("Please enter the YouTube URL: ")
     urls = [url]
